@@ -97,7 +97,7 @@ private:
     }
 };
 ```
-### Renderer code snipper
+### Rendering GUI code snippet
 
 ```cpp
  WNDCLASSEXW wc = { sizeof(wc), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(nullptr), nullptr, nullptr, nullptr, nullptr, L"ImGui Example", nullptr };
